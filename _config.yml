@@ -6,8 +6,16 @@ baseurl: ""
 include: ["_pages"]
 permalink: /:title/
 
-url: "https://calixtotechworld.dev"
+url: "https://robsoncalixto.dev"
 
+# Informações do autor
+author:
+  robson:
+    name: "Robson Calixto"
+    display_name: "Robson Calixto"
+    email: "robsoncaliixto@gmail.com"
+    web: https://robsoncalixto.github.io/
+    
 # Configurações do Jekyll
 markdown: kramdown
 
@@ -16,7 +24,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     block:
-        line_numbers: true
+      line_numbers: true
         
 theme: minima
 
@@ -44,14 +52,6 @@ whitelist:
 # Paginação
 paginate: 10
 paginate_path: "/page:num/"
-
-# Informações do autor
-author:
-  robson:
-    name: "Robson Calixto"
-    display_name: "Robson Calixto"
-    email: "robsoncaliixto@gmail.com"
-    web: https://robsoncalixto.github.io/
 
 # Configurações personalizadas
 cover_image_default: "/assets/images/default-cover.jpg"
